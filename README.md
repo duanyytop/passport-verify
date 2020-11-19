@@ -1,2 +1,2 @@
-# passport-signature-verification
+# passport-verify
 E-Passport signature verification
