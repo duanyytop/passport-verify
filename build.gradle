@@ -1,12 +1,17 @@
 plugins {
-    id 'java'
+    id "application"
 }
-
-group 'dev.gw.dylan'
-version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+ext {
+    javaMainClass = "dev.gw.Main"
+}
+
+application {
+    mainClassName = javaMainClass
 }
 
 dependencies {
